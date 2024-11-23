@@ -4,6 +4,7 @@ import {
 } from "react-router-dom";
 import Root from "../Components/Root";
 import Home from "../Pages/Home";
+import Learn from "../Pages/Learn";
 
 const router = createBrowserRouter([
     {
@@ -13,7 +14,15 @@ const router = createBrowserRouter([
             {
                 path: "/",
                 element: <Home></Home>,
-            }
+            },
+            {
+                path: "/learn",
+                element: <Learn></Learn>,
+            },
+            {
+                path: "/",
+                element: <Home></Home>,
+            },
         ]
     },
 ]);

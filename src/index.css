@@ -6,3 +6,7 @@
 html {
     overflow-y: scroll;
 }
+
+body{
+    font-family: "Poppins", sans-serif;
+}
